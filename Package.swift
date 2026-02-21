@@ -1,13 +1,13 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 6.2
 
 import PackageDescription
 
 let package = Package(
     name: "ARImagePlacement",
     platforms: [
-        .iOS(.v18),
-        .visionOS(.v2),
-        .macOS(.v14)
+       .iOS(.v26),
+        .visionOS(.v26),
+        .macOS(.v26)
     ],
     products: [
         .library(
